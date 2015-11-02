@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>
+            Food tracker
+        </title>
+        <link rel="stylesheet" href="Stylesheet.css">
+        <script src="Script.js">
+
+        </script>
+    </head>
+    <body style="align-items: center">
+    <header>
+        Food tracker
+    </header>
+    <table id="insertTable">
+        <tr id="foodAndCommentRow" style="outline: groove">
+            <td>
+                <h3>
+                    Food
+                </h3>
+                <input id="foodItem" type="text">
+            </td>
+            <td>
+                <h3>
+                    Comment
+                </h3>
+                <input id="commentSection" type="text">
+            </td>
+        </tr>
+        <tr id="startAndEndRow" style="outline: groove">
+            <td>
+                <h3>Day and time of purchase</h3>
+                <input type="date" id="dateSectionStart">
+                <input type="time" id="timeSection">
+            </td>
+            <td>
+                <h3>expiration date and time</h3>
+                <input type="date" id="dateSectionEnd">
+                <input type="time" id="timeSectionEnd">
+            </td>
+        </tr>
+    </table>
+    <button id="submitButton" type="button" onclick="timTheFunction()">
+        Submit
+    </button>
+    <table id="specialTable">
+        <tr>
+            <td style="outline: groove">
+                Food
+            </td>
+            <td style="outline: groove">
+                comment
+            </td>
+            <td style="outline: groove">
+                Start
+            </td>
+            <td style="outline: groove">
+                End
+            </td>
+        </tr>
+    </table>
+    </body>
+</html>
